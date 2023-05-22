@@ -13,6 +13,7 @@ int main(int argc, char *argv[]) {
             buf = argv[i][j];
             if (buf == '\0') {
                 //write(1, &indent, 1);
+                write(1, " ", 1);
                 break;
             } else {
                 write(1, &buf, 1);
