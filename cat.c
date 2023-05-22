@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     int res;
 
     if (argc != 2) {
-        print("not enough argument..");
+        print("this command take exactly 1 argument..");
         return -1;
     }
 
